@@ -14,6 +14,12 @@
             
             <div id="topbar">
                 
+                <audio id="gerudo" src="audio/gerudo.mp3" preload="auto" autobuffer></audio>
+                
+                <div id="link">
+                    <img onClick="EvalSound('gerudo')" src="images/Link.png" />
+                </div>
+                
                 <ul id="menu">
                     <a class="hvr-buzz" href="#"><li></li></a>
                     <a class="hvr-buzz" href="#"><li></li></a>
@@ -49,6 +55,14 @@
             </div>
             
         </div>
+        
+        <script>
+            function EvalSound(soundobj) {
+            var thissound=document.getElementById(soundobj);
+            thissound.play();
+            }
+        </script>
+        
     </body>
     <footer>
         This is my website. There are many like it, but this one is mine.

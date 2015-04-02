@@ -13,6 +13,29 @@ body{
     color: white;
 }
 
+#link img{
+    float: left;
+    width: 30px;
+    margin-left: 10px;
+}
+
+#menu{
+    float: right;
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+#menu li{
+    display: inline;
+    text-transform: uppercase;
+    color: black;
+    padding-right: 18px;
+    margin-right: 10px;
+    background-color: #E6E6E6;
+    border-radius:25px;
+}
+
 @-webkit-keyframes hvr-buzz{
     50%{
         -webkit-transform: translateX(3px) rotate(2deg);
@@ -56,23 +79,6 @@ body{
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-}
-
-#menu{
-    float: right;
-    font-weight: bold;
-    list-style-type: none;
-    margin-top: 8px;
-}
-
-#menu li{
-    display: inline;
-    text-transform: uppercase;
-    color: black;
-    padding-right: 18px;
-    margin-right: 10px;
-    background-color: #E6E6E6;
-    border-radius:25px;
 }
 
 #pic{
