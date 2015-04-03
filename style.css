@@ -106,7 +106,7 @@ h1{
     text-align: justify;
     color: white;
     font-size: 20px;
-    padding-top: 125px;
+    padding-top: 105px;
     padding-left: 15px;
     text-shadow: 2px 1px black;
 }
@@ -138,6 +138,7 @@ p{
 
 #social{
     margin-top: 4px;
+    margin-left: 100px;
     height: auto;
 }
 
