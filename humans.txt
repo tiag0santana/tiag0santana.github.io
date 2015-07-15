@@ -1,0 +1,13 @@
+Hey, thanks for visiting my website!
+
+/* ABOUT ME */
+Name: Tiago Santana
+Contact: tiagosantana [at] outlook.com
+Twitter: @tiagosantana
+From: São Luís, Maranhão, Brazil.
+
+/* SITE */
+Last update: 07/14/2015
+Language: English
+Doctype: HTML5
+IDE: Brackets, Photoshop, Git Bash.
