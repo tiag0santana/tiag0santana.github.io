@@ -30,7 +30,7 @@ body{
 }
 
 #font{
-    font: 160px 'MunroNarrow', sans-serif;
+    font: 140px 'MunroNarrow', sans-serif;
 	color: #f6f1d4;
 	letter-spacing: .15em;
 	text-transform: uppercase;
@@ -45,7 +45,7 @@ body{
 }
 
 #font2{
-    font: 30px 'ProcionoRegular', sans-serif;
+    font: 25px 'ProcionoRegular', sans-serif;
 	color: #f6f1d4;
 	letter-spacing: .15em;
 }
