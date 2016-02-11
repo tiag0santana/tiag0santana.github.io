@@ -59,6 +59,10 @@ body{
 		12px 12px 0 #1b242b;
 }
 
+#font2Fix{
+    font-size: 70px;
+}
+
 .font3{
     font: 25px 'ProcionoRegular', sans-serif;
 	color: #f6f1d4;
