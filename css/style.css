@@ -29,7 +29,7 @@ body{
     max-width: 100%;
 }
 
-#font{
+.font{
     font: 140px 'MunroNarrow', sans-serif;
 	color: #f6f1d4;
 	letter-spacing: .15em;
@@ -44,7 +44,22 @@ body{
 		12px 12px 0 #1b242b;
 }
 
-#font2{
+.font2{
+    font: 80px 'MunroNarrow', sans-serif;
+	color: #f6f1d4;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	text-shadow:
+		1px 1px 0 #ee500a,
+		2px 2px 0 #ee500a,
+		3px 3px 0 #ee500a,
+		4px 4px 0 #ee500a,
+		5px 5px 0 #ee500a,
+		6px 6px 0 #ee500a,
+		12px 12px 0 #1b242b;
+}
+
+.font3{
     font: 25px 'ProcionoRegular', sans-serif;
 	color: #f6f1d4;
 	letter-spacing: .15em;
@@ -54,10 +69,29 @@ h1{
     color: #f6f1d4;
 }
 
-#perfil{
+#perfilMed{
     width: 65%;
     border-radius: 200px;
     box-shadow: 2px 4px 30px black;
+}
+
+#perfilPeq{
+    width: 65%;
+    border-radius: 200px;
+    box-shadow: 2px 4px 30px black;
+}
+
+#fixAnim{
+    margin-top: -40px;
+}
+
+#fixFontPeq{
+    margin-top: -40px;
+    margin-bottom: 15px;
+}
+
+#fixFooter{
+    margin-bottom: 10px;
 }
 
 /* Bounce In */
