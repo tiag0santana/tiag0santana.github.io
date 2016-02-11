@@ -69,10 +69,20 @@ h1{
     color: #f6f1d4;
 }
 
+#perfilGran{
+    width: 65%;
+    border-radius: 200px;
+    box-shadow: 2px 4px 30px black;
+    margin-top: 20px;
+    width: 200px;
+}
+
 #perfilMed{
     width: 65%;
     border-radius: 200px;
     box-shadow: 2px 4px 30px black;
+    margin-top: 20px;
+    width: 150px;
 }
 
 #perfilPeq{
