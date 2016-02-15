@@ -34,11 +34,25 @@
         
         <!-- Conteúdo -->
         
+        <!-- Navbar -->
+        <div class="fixed sticky">
+            <nav class="top-bar" data-topbar role="navigation" data-options="sticky-on: large">
+                <div class="right" id="fixRightTop">
+                <ul class="inline-list">
+                    <li class=""><a href="#home">Home</a></li>
+                    <li class=""><a href="#portfolio">Portfolio</a></li>
+                    <li class=""><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- .Navbar -->
+        
         <!-- Topo -->
         <div class="row full-width">
             <!-- Médio+ -->
             <div class="show-for-medium-up medium-12 columns">
-                <div class="font text-center" role="contentinfo">Tiago Santana</div>
+                <div class="font text-center" role="contentinfo" id="home">Tiago Santana</div>
             </div>
             <!-- .Médio+ -->
             
@@ -134,7 +148,7 @@
                         <a tabindex="13" class="hvr-bounce-in" href="https://instagram.com/tiag0santana" target="_blank" role="link"><img src="img/instagram.png" alt="instagram icon"></a>
                         <a tabindex="14" class="hvr-bounce-in" href="https://www.last.fm/user/Netchurch" target="_blank" role="link"><img src="img/lastfm.png" alt="last fm icon"></a>
                     </div>
-                    <div class="medium-12 columns" id="fixFooter">
+                    <div class="medium-12 columns" id="fixSoc">
                         <a tabindex="15" class="hvr-bounce-in" href="https://br.linkedin.com/in/tiagosantana" target="_blank" role="link"><img src="img/linkedin.png" alt="linkedin icon"></a>
                         <a tabindex="16" class="hvr-bounce-in" href="https://pinterest.com/tiagosantana/" target="_blank" role="link"><img src="img/pinterest.png" alt="pinterest icon"></a>
                         <a tabindex="17" class="hvr-bounce-in" href="https://twitter.com/tiagosantana" target="_blank" role="link"><img src="img/twitter.png" alt="twitter icon"></a>
@@ -146,7 +160,7 @@
                 
                 <!-- Pequeno -->
                 <div class="show-for-small-only">
-                    <div class="small-12 columns" id="fixFooter">
+                    <div class="small-12 columns" id="fixSoc">
                         <a tabindex="10" class="hvr-bounce-in" href="https://www.facebook.com/tiago.p.santana" target="_blank" role="link"><img src="img/facebook.png" alt="facebook icon"></a>
                         <a tabindex="11" class="hvr-bounce-in" href="https://github.com/tiag0santana" target="_blank" role="link"><img src="img/github.png" alt="github icon"></a>
                         <a tabindex="12" class="hvr-bounce-in" href="https://plus.google.com/+TiagoSantana/" target="_blank" role="link"><img src="img/googleplus.png" alt="google plus icon"></a>
@@ -159,18 +173,67 @@
                         <a tabindex="19" class="hvr-bounce-in" href="https://www.youtube.com/user/TiagoPSantana" target="_blank" role="link"><img src="img/youtube.png" alt="youtube icon"></a>
                     </div>
                 </div>
-                <!-- .Pequeno -->
-                
+                <!-- .Pequeno -->  
             </div>
         </div>
         <!-- .Social Media -->
+
+        <!-- Portfolio -->
+        <span id="portfolio">.</span>
+        <div class="row full-width" id="newBG" data-equalizer>
+            <div class="text-center">
+                <p class="font4 fixFont4" role="contentinfo">Some things that I did:</p>
+            </div>
+            
+            <!-- 1st Row -->
+            <div class="small-4 columns fixPortfolio">
+                <a href="http://tiag0santana.github.io/" target="_blank"><img src="img/portfolio/homepage.jpg"></a>
+                <p class="fontPort text-center">My Homepage</p>
+            </div>
+            <div class="small-4 columns fixPortfolio">
+                <a href="http://codepen.io/tiagosantana/full/QyobJo" target="_blank"><img src="img/portfolio/faker.jpg"></a>
+                <p class="fontPort text-center">Faker Tribute Page</p>
+            </div>
+            <div class="small-4 columns fixPortfolio">
+                <a href="#"><img src="http://placehold.it/500x500"></a>
+                <p class="fontPort text-center">About Website 1</p>
+            </div>
+            <!-- .1st Row -->
+            <!-- 2nd Row -->
+            <div class="small-4 columns fixPortfolio">
+                <a href="#"><img src="http://placehold.it/500x500"></a>
+                <p class="fontPort text-center">About Website 2</p>
+            </div>
+            <div class="small-4 columns fixPortfolio">
+                <a href="#"><img src="http://placehold.it/500x500"></a>
+                <p class="fontPort text-center">About Website 3</p>
+            </div>
+            <div class="small-4 columns fixPortfolio">
+                <a href="#"><img src="http://placehold.it/500x500"></a>
+                <p class="fontPort text-center">About Website 4</p>
+            </div>
+            <!-- .2nd Row -->
+            
+        </div>
+        <!-- .Portfolio -->
+        
+        <!-- Contact -->
+        <span id="contact">.</span>
+        <div class="row full-width" id="newBG2">
+            <div class="text-center">
+                <p class="font4" role="contentinfo">Contact Me:</p>
+                <p class="font5">If you wanna contact me, you can use my <a href="#home">social networks</a> or send me an email:</p>
+                <p class="font5" style="color: darkgray;">tiagosantana@outlook.com</p>
+            </div>
+        </div>
+        <!-- .Contact -->
         
         <!-- Footer -->
-        <footer class="show-for-medium-up medium-12 text-center">
+        <footer class="show-for-medium-up medium-12 text-center" id="newBG3">
             <p>This is my website. There are many like it, but this one is mine.</p>
             <a href="humans.txt" target="_blank" role="link">humans.txt</a>
         </footer>
-        <footer class="show-for-small-only small-offset-2 small-8 text-center">
+        <footer class="show-for-small-only small-offset-2 small-8 text-center" id="fixFooter">
             <p>This is my website. There are many like it, but this one is mine.</p>
             <a href="humans.txt" target="_blank" role="link">humans.txt</a>
         </footer>

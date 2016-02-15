@@ -29,6 +29,11 @@ body{
     max-width: 100%;
 }
 
+#fixRightTop{
+    margin-right: 10px;
+    font-size: 17px;
+}
+
 .font{
     font: 140px 'MunroNarrow', sans-serif;
 	color: #f6f1d4;
@@ -57,6 +62,10 @@ body{
 		5px 5px 0 #ee500a,
 		6px 6px 0 #ee500a,
 		12px 12px 0 #1b242b;
+}
+
+#home{
+    padding-top: 4px;
 }
 
 #font2Fix{
@@ -104,7 +113,57 @@ h1{
     margin-bottom: 15px;
 }
 
-#fixFooter{
+#newBG{
+    background-color: #22292f;
+    padding-top: 3px;
+}
+
+#portfolio{
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+
+.font4{
+    font: 40px 'ProcionoRegular', sans-serif;
+	color: #f6f1d4;
+	letter-spacing: .15em;
+}
+
+.fixFont4{
+    margin-bottom: 15px;
+}
+
+.fontPort{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fixPortfolio{
+    margin-bottom: 15px;
+}
+
+#newBG2{
+    background-color: #0c0f11;
+    margin-top: -16px;
+    padding-bottom: 5px;
+}
+
+#newBG3{
+    background-color: #000000;
+    padding-top: 10px;
+}
+
+#contact{
+    visibility: hidden;
+}
+
+.font5{
+    font: 25px 'ProcionoRegular', sans-serif;
+	color: #f6f1d4;
+	letter-spacing: .15em;
+}
+
+#fixSoc{
     margin-bottom: 10px;
 }
 
