@@ -7,7 +7,7 @@ Twitter: @tiagosantana
 From: São Luís, Maranhão, Brazil.
 
 /* SITE */
-Last update: 02/15/2016
+Last update: 09/16/2016
 Language: English
 Doctype: HTML5
-IDE: Brackets, Photoshop, Github, SourceTree.
+IDE: Visual Studio Code, Photoshop, Github.
