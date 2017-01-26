@@ -1,4 +1,4 @@
-﻿Hey, thanks for visiting my website!
+Hey, thanks for visiting my website!
 
 /* ABOUT ME */
 Name: Tiago Santana
@@ -7,7 +7,6 @@ Twitter: @tiagosantana
 From: São Luís, Maranhão, Brazil.
 
 /* SITE */
-Last update: 09/16/2016
+Last update: 01/26/2017s
 Language: English
-Doctype: HTML5
-IDE: Visual Studio Code, Photoshop, Github.
+IDE: Brackets, Photoshop, Github, GitKraken.
