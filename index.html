@@ -1,105 +1,430 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Tiago Santana</title>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-        <link rel="icon" href="images/favicon-16.png" sizes="16x16">
-        <link rel="icon" href="images/favicon-32.png" sizes="32x32">
-        <link rel="icon" href="images/favicon-48.png" sizes="48x48">
-        <link rel="icon" href="images/favicon-64.png" sizes="64x64">
-        <link rel="icon" href="images/favicon-128.png" sizes="128x128">
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Tiago Santana</title>
+	<meta name="description" content="Personal website">  
+	<meta name="author" content="Tiago Santana">
 
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Tiago Santana</h1>
-							<p>Newbie Coder (HTML, CSS, JS, Python)</p>
-							<p>Online Social Media Lover</p>
-                            <p>Juggler</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div>
-							<div class="field">
-								<label>But are you a robot?</label>
-								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="https://twitter.com/tiagosantana" class="fa-twitter">Twitter</a></li>
-								<li><a href="https://www.instagram.com/tiag0santana/" class="fa-instagram">Instagram</a></li>
-								<li><a href="https://www.facebook.com/tiago.p.santana" class="fa-facebook">Facebook</a></li>
-							</ul>
-						</footer>
-					</section>
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-                            <li>&copy; Tiago Santana</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><a href="humans.txt">humans.txt</a></li>
-						</ul>
-					</footer>
+</head>
 
-			</div>
+<body id="top">
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
 
-	</body>
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">MENU</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>				
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<li><a href="styles.html" title="">Style Demo</a></li>				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Well, hello there!</h5>
+	   			<h1>I'm Tiago Santana.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Marketing and Advertising Student</span>
+	   				<span>Social Media Lover</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">
+		 <li><a href="https://www.linkedin.com/in/tiagosantana/a"><i class="fa fa-linkedin"></i></a></li>        
+         <li><a href="https://www.facebook.com/tiago.p.santana"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://twitter.com/tiagosantana"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="https://www.instagram.com/tiag0santana/"><i class="fa fa-instagram"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">I like online social media, esports, games and music. I'm an easy going person and I like to help people. I can also do a little of coding.</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<p>A little more about me:</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Full Name:</strong>
+   					<span>Tiago Pereira Santana</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>October 14, 1991</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Student</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>tiagosantana@outlook.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<p>Here are some of skills under development:</p>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>Social Media</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent50"><span>50%</span></div>
+				   	<strong>Inbound</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent50"><span>50%</span></div>
+				   	<strong>Facebook Ads</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent40"><span>40%</span></div>
+				   	<strong>CMS</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent30"><span>30%</span></div>
+				   	<strong>SEO</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="/Tiago_Santana_Resume.pdf" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">Here you can find some of my experiences, like writing, managing blog and social media channels and translating; and where and what I'm studying.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Social Media Manager</h3>
+	   					<p>February 2015 - October 2017</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>PlayerTwo</h4>
+	   					<p>I managed the Facebook profile and moderated Twitch chat. I also edited stream highlights to send to the Youtube channel. I also wrote some articles.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Translation Coordinator</h3>
+	   					<p>April 2013 - April 2015</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Grooveshark</h4>
+	   					<p>I helped with some of the translation from Enlighs to Brazilian Portuguese of the website, accepting and adding new translations for their 3.0 update.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Administrator</h3>
+	   					<p>October 2010 - March 2015</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>BlogMMO</h4>
+	   					<p>I helped administrate the whole blog. I also wrote news articles and reviews, created promotions and talked with partners/PRs.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor's Degree in Marketing and Advertising</h3>
+	   					<p>January 2018 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Universidade Cruzeiro do Sul</h4>
+	   					<p>Learning how to communicate properly, create advertising campaigns, inovation, entrepreneurship, among other things.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Social Media and Inbound</h3>
+	   					<p>August 2018 - September 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>HubSpot</h4>
+						   <p>Learned more about Social Media, media strategy, social listening and monitoring and inbound marketing.</p>
+						   <p><a href="https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-certificates/29-3602305-1534957780572.png" target="_blank">Social Media Certificate</a>. <a href="https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-certificates/24-3602305-1535819175528.png" target="_blank">Inbound Certificate</a>.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">If you wanna contact me, you can use my email or even send me a message on one of my social media profiles.</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-six tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            São Luís<br>
+            Maranhão<br>
+            Brazil.
+            </p>
+
+   		</div>
+
+   		<div class="col-six tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>tiagosantana@outlook.com</p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">      
+				  <li><a href="https://www.linkedin.com/in/tiagosantana/a"><i class="fa fa-linkedin"></i></a></li>  
+			      <li><a href="https://www.facebook.com/tiago.p.santana"><i class="fa fa-facebook"></i></a></li>
+			      <li><a href="https://twitter.com/tiagosantana"><i class="fa fa-twitter"></i></a></li>
+			      <li><a href="https://www.instagram.com/tiag0santana/"><i class="fa fa-instagram"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Tiago Santana 2018.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
 </html>
